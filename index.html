@@ -201,7 +201,7 @@
     ];
 
     let cart = [], orders = [], currentFilter = 'ALL';
-    let scriptUrl = localStorage.getItem('choc_sheet_url') || '';
+    let scriptUrl = localStorage.getItem('choc_sheet_url') || 'https://script.google.com/macros/s/AKfycbzdMsj4TW6QLPGJZjPDrgSXi1LmQBgG-9oSs6ah0eVlA6jpYC2wvECoWCW5Kh6cVok/exec';
 
     window.onload = () => { renderProducts(); updateConnectionBadge(); loadOrders(); };
 
